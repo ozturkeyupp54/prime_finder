@@ -1,5 +1,3 @@
-
-
 def prime_finder(a):
   number= int(a)
   results = []
@@ -10,4 +8,4 @@ def prime_finder(a):
         divisors.append(j)
     if len(divisors) < 2 :
       results.append(i)
-  print(results)
+  return results
