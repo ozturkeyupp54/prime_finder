@@ -9,3 +9,4 @@ def prime_finder(a):
     if len(divisors) < 2 :
       results.append(i)
   return results
+  #not
